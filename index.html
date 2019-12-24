@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" / <title>
+		</title>
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script>
+			$(function() {
+				// 初始化轮播
+				$("#sxwtleft").carousel('cycle');
+				// 循环轮播到某个特定的帧 
+				$("#slide-one").click(function(){
+					$("#sxwtleft").carousel(0);
+				});
+				$("#slide-two").click(function(){
+					$("#sxwtleft").carousel(1);
+				});
+				
+			});
+			$(document).ready(function() {
+				$('#jycy').click(function() {
+					window.open("http://1.85.55.147:17007/grfw/index.jhtml", 'target');
+				});
+				$('#rsgl').click(function() {
+					window.open("http://1.85.55.147:17007/grfw/index.jhtml", 'target');
+				});
+				$('shbx').click(function() {
+					window.open("http://1.85.55.147:17007/grfw/index.jhtml", 'target');
+				});
+				$('#rcgz').click(function() {
+					window.open("http://1.85.55.147:17007/grfw/index.jhtml", 'target');
+				});
+				$('#gzfl').click(function() {
+					window.open("http://1.85.55.147:17007/grfw/index.jhtml", 'target');
+				});
+				$('#ldgx').click(function() {
+					window.open("http://1.85.55.147:17007/grfw/index.jhtml", 'target');
+				});
+				$('#shbzk').click(function() {
+					window.open("http://1.85.55.147:17007/shbzk/index.jhtml?card=true", 'target');
+				});
+				$('#sxwtright').click(function() {
+					window.open("http://1.85.55.147:17007/index.do", 'target');
+				});
+			});
+		</script>
+
+	</head>
+
+	<body>
+		<div id="sxqjd">
+	    <div class="dynamic-area1"></div>
+		<div class="dynamic-area2"></div>
+		<div class="titleFont">
+			<img  style="margin-top:30px ;margin-bottom: 30px;"  src="img/陕西公共服务旗舰店.png" /></div>
+			<div class="container">
+
+				<div style="text-align: center; margin-top: 40px;">
+					<img src="img/热门服务.png" />
+				</div>
+				<div class="row">
+					<div class="rmfw">
+						<img src="img/大图标/个人参保信息.png" class="imgstyle1" />
+						<p class="pstyle">个人参保信息查询</p>
+					</div>
+					<div class="rmfw">
+						<img src="img/大图标/个人养老基本险.png" class="imgstyle1" />
+						<p class="pstyle">个人养老基本险缴费信息查询</p>
+					</div>
+					<div class="rmfw">
+						<img src="img/大图标/退休人员待遇发放.png" class="imgstyle1" />
+						<p class="pstyle">退休人员待遇发放 明细查询</p>
+					</div>
+					<div class="rmfw">
+						<img src="img/大图标/个人养老职业年金.png" class="imgstyle1" />
+						<p class="pstyle">个人养老职业年金缴费 信息查询</p>
+					</div>
+					<div class="rmfw">
+						<img src="img/大图标/个人账户信息查询.png" class="imgstyle1" />
+						<p class="pstyle">个人账户信息查询</p>
+					</div>
+					<div class="rmfw">
+						<img src="img/大图标/退休人员待遇明细.png" class="imgstyle1" />
+						<p class="pstyle">退休人员待遇明细查询</p>
+					</div>
+				</div>
+				<!--第二部分-->
+				<div id="part2" class="row">
+					
+						<div id="sxwtleft" class="carousel slide">
+							<!-- 轮播（Carousel）指标 -->
+							<ol class="carousel-indicators">
+								<li id="slide-one" data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								<li id="slide-two" data-target="#myCarousel" data-slide-to="1"></li>
+							</ol>
+							<!-- 轮播（Carousel）项目 -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<!--<div class="sxwtleft">-->
+									<div id='jycy' class="sxwtleftinner">
+										<img src="img/小图标/就业创业.png" class="imgstyle2" />
+										<p class="pstyle2">就业创业</p>
+										<p class="pstyle3">BUSSINESS</p>
+									</div>
+									<div id='rsgl' class="sxwtleftinner2">
+										<img src="img/小图标/人事管理.png" class="imgstyle2" />
+										<p class="pstyle2">人事管理</p>
+										<p class="pstyle3">HR</p>
+									</div>
+									<div id='shbx' class="sxwtleftinner3">
+										<img src="img/小图标/社会保险.png" class="imgstyle2" />
+										<p class="pstyle2">社会保险</p>
+										<p class="pstyle3">INSURANCE</p>
+									</div>
+									<div id='rcgz' class="sxwtleftinner4">
+										<img src="img/小图标/人才工作.png" class="imgstyle2" />
+										<p class="pstyle2">人才工作</p>
+										<p class="pstyle3">WORKING</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="sxwtleft">
+										<div id='gzfl' class="sxwtleftinner">
+											<img src="img/小图标/工资福利.png" class="imgstyle2" />
+											<p class="pstyle2">工资福利</p>
+											<p class="pstyle3">WELFARE</p>
+										</div>
+										<div id='ldgx' class="sxwtleftinner2">
+											<img src="img/小图标/劳动关系.png" class="imgstyle2" />
+											<p class="pstyle2">劳动关系</p>
+											<p class="pstyle3">LABORRELATION</p>
+										</div>
+										<div id='shbzk' class="sxwtleftinner3">
+											<img src="img/小图标/社会保障卡.png" class="imgstyle2" />
+											<p class="pstyle2">社会保障卡</p>
+											<p class="pstyle3">SOCIALCARD</p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div id="sxwtright">
+							<img class="imgstyle3" src="img/banner.png" />
+						</div>
+				
+				</div>
+				<!--第三部分-->
+				<div class="row">
+					<ul id="myTab" class="nav nav-tabs">
+						<li class="active">
+							<a href="#person" data-toggle="tab">
+								个人办事
+							</a>
+						</li>
+						<li>
+							<a href="#unit" data-toggle="tab">单位办事</a>
+						</li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade in active" id="person">
+							<ul id="myTabin" class="nav nav-tabs">
+								<li class="active">
+									<a href="#jgb" data-toggle="tab">
+										机关保
+									</a>
+								</li>
+								<li>
+									<a href="#czzg" data-toggle="tab">城镇职工</a>
+								</li>
+								<li>
+									<a href="#cxjm" data-toggle="tab">城乡居民</a>
+								</li>
+								<li>
+									<a href="#sybx" data-toggle="tab">失业保险</a>
+								</li>
+								<li>
+									<a href="#shbzk1" data-toggle="tab">社会保障卡</a>
+								</li>
+								<li>
+									<a href="#ldjc" data-toggle="tab">劳动监察</a>
+								</li>
+							</ul>
+							<div id="myTabContentin" class="tab-content">
+								<div class="tab-pane fade in active" id="jgb">
+									<div class="qbfw">
+										<img src="img/人社图标/ardor.png" class="imgstyle4" />
+										<p class="pstyle4">个人参保信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (2).png" class="imgstyle4" />
+										<p class="pstyle4">个人养老基本险缴费信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (3).png" class="imgstyle4" />
+										<p class="pstyle4">个人养老职业年金缴费信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">个人账户信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">退休人员待遇明细查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">退休人员待遇发放明细查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">个人养老保险参保缴费证明</p>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="czzg">
+									<div class="qbfw">
+										<img src="img/小图标/社保 (1).png" class="imgstyle4" />
+										<p class="pstyle4">个人养老基本信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (2).png" class="imgstyle4" />
+										<p class="pstyle4">个人养老参保信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (3).png" class="imgstyle4" />
+										<p class="pstyle4">个人养老缴费信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">个人账户年度台账信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">离退休人员参保信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">离退休人员待遇信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">待遇支付明细查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">个人参保缴费证明打印</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">养老金收入证明打印</p>
+									</div>
+
+								</div>
+								<div class="tab-pane fade" id="cxjm">
+									<div class="qbfw">
+										<img src="img/小图标/社保 (2).png" class="imgstyle4" />
+										<p class="pstyle4">个人基本信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (2).png" class="imgstyle4" />
+										<p class="pstyle4">个人参保信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (3).png" class="imgstyle4" />
+										<p class="pstyle4">个人缴费信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">个人账户信息查询</p>
+									</div>
+
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">养老待遇调整信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">养老待遇信息查询</p>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="sybx">
+									<div class="qbfw">
+										<img src="img/小图标/社保 (2).png" class="imgstyle4" />
+										<p class="pstyle4">个人基本信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (2).png" class="imgstyle4" />
+										<p class="pstyle4">个人参保信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (3).png" class="imgstyle4" />
+										<p class="pstyle4">个人缴费信息查询</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">待遇发放信息查询</p>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="shbzk1">
+									<div class="qbfw">
+										<img src="img/小图标/社保 (2).png" class="imgstyle4" />
+										<p class="pstyle4">社会保障卡挂失</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (2).png" class="imgstyle4" />
+										<p class="pstyle4">社会保障解挂</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (3).png" class="imgstyle4" />
+										<p class="pstyle4">社会保障卡激活</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">社会保障卡密码修改</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">社会保障卡信息变更</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (4).png" class="imgstyle4" />
+										<p class="pstyle4">社会保障卡制卡进度查询</p>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="ldjc">
+									<div class="qbfw">
+										<img src="img/小图标/社保 (2).png" class="imgstyle4" />
+										<p class="pstyle4">劳动监察网上举报</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (2).png" class="imgstyle4" />
+										<p class="pstyle4">劳动监察网上投诉</p>
+									</div>
+									<div class="qbfw">
+										<img src="img/小图标/社保 (3).png" class="imgstyle4" />
+										<p class="pstyle4">劳动监察网上举报投诉查询</p>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+						<div class="tab-pane fade" id="unit">
+							<div class="qbfw">
+								<p class="pstyle4">敬请期待...</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</body>
+	<style type="text/css">
+		  .titleFont{
+			width: 1200px;
+			margin: 0 auto ;
+			}
+		.rmfw {
+			width: 165px;
+			height: 190px;
+			float: left;
+			margin-left: 30px;
+			text-align: center;
+			background-color: #ffffff;
+			box-shadow: 0px 0px 21px 0px 
+				#eaeaea;
+			border: solid 1px #d8e4ee;
+		}
+		
+		.rmfw:hover {
+			width: 171px;
+			height: 196px;
+			background-color: #ffffff;
+			box-shadow: 0px 0px 21px 0px 
+				#eaeaea;
+			border: solid 1px #419ef4;
+			cursor: pointer;
+		}
+		
+		.imgstyle1 {
+			position: relative;
+			height: 80px;
+			width: 80px;
+			top: 30px;
+		}
+		
+		.pstyle {
+			position: relative;
+			width: 120px;
+			margin: 0 auto;
+			font-size: 13px;
+			font-weight: 300;
+			top: 37px;
+		}
+		/*陕西网厅*/
+		
+		.row {
+			margin-top: 48px;
+		}
+		
+		#part2 {
+			background-image: url(img/淡蓝色bg_爱奇艺.jpg);
+			width: 1140px;
+			height: 228px;
+			left: 30px;
+			position: relative;
+		}
+		
+		#sxwtleft {
+			width: 514px;
+			height: 220px;
+			float: left;
+			position: relative;
+		}
+		
+		#sxwtright {
+			width: 626px;
+			height: 190px;
+			position: relative;
+			
+			float: left;
+			margin-top: 30px;
+			
+		}
+		.carousel-inner{
+			position: relative;
+			top: 19px;
+			left: 27px;
+		}
+		.sxwtleftinner {
+			top: 5px;
+			width: 222px;
+			height: 72px;
+			float: left;
+			margin: 7px;
+			background: linear-gradient(to left, #5fabf6, #4576d2);
+			position: relative;
+		}
+		
+		.sxwtleftinner:hover {
+			border: 2px #4576d2 solid;
+			cursor: pointer;
+		}
+		
+		.sxwtleftinner2 {
+			top: 5px;
+			width: 222px;
+			height: 72px;
+			float: left;
+			margin: 7px;
+			font-size: 16px;
+			background: linear-gradient(to left, #45cbf0, #2ab1e0);
+			position: relative;
+		}
+		
+		.sxwtleftinner2:hover {
+			border: 2px #2ab1e0 solid;
+			cursor: pointer;
+		}
+		
+		.sxwtleftinner3 {
+			top: 5px;
+			width: 222px;
+			height: 72px;
+			float: left;
+			margin: 7px;
+			background: linear-gradient(to left, #5fabf6, #2ea18e);
+			position: relative;
+		}
+		
+		.sxwtleftinner3:hover {
+			border: 2px #2ea18e solid;
+			cursor: pointer;
+		}
+		
+		.sxwtleftinner4 {
+			top: 5px;
+			width: 222px;
+			height: 72px;
+			float: left;
+			margin: 7px;
+			background: linear-gradient(to left, #7698f2, #675bdc);
+			position: relative;
+		}
+		
+		.sxwtleftinner4:hover {
+			border: 2px #675bdc solid;
+			cursor: pointer;
+		}
+		
+		.imgstyle2 {
+			position: relative;
+			float: left;
+			top: 15px;
+			left: 24px;
+		}
+		
+		.pstyle2 {
+			color: white;
+			left: 36px;
+			top: 20px;
+			height: 30px;
+			font-size: 16px;
+			font-weight: 400;
+			position: relative;
+			
+		}
+		
+		.pstyle3  {
+			color: white;
+			left: 36px;
+			top: 4px;
+			font-size: 12px ;
+			position: relative;
+			opacity:0.8;
+		}
+		
+		ol.carousel-indicators li {
+			width: 18px;
+			height: 8px;
+			position: relative;
+			background-color: #d6dadc;
+		}
+		
+		ol.carousel-indicators li.active {
+			width: 18px;
+			height: 8px;
+			background-color: black;
+			background-color: #51a5f6;
+		}
+		
+		ol.carousel-indicators {
+			bottom: 10px;
+			margin-bottom: 0px;
+			left: 420px;
+		}
+		
+		.imgstyle3 {
+			height: 169px;
+			width: 596px;
+		}
+		
+		.imgstyle3:hover {
+			border: 1px #9dccfa solid;
+			cursor: pointer;
+		}
+		/*第三部分*/
+		
+		.qbfw {
+			width: 120px;
+			height: 130px;
+			float: left;
+			margin: 14px;
+			text-align: center;
+		}
+		.qbfw:hover{
+			width: 125px;
+			height: 135px;
+			cursor: pointer;
+			color: #3d6fce;
+			font-weight: 400 !important;
+		}
+		.imgstyle4 {
+			position: relative;
+			height: 50px;
+			width: 50px;
+			top: 20px;
+		}
+		
+		.pstyle4 {
+			position: relative;
+			width: 120px;
+			margin: 0 auto;
+			top: 27px;
+			size: 12px;
+		}
+		
+		#myTab {
+			border-bottom: 0px solid;
+			/*margin-bottom: 32px;*/
+		}
+		
+		#myTab li a {
+			color: #808080;
+			font-size: 18px;
+			width: 120px;
+			height: 45px !important;
+			margin-right: 10px;
+			border: none !important;
+		}
+		
+		#myTab .active a {
+			border-radius: 30px;
+			!important;
+			background-color: #3d6fce;
+			color: white;
+			margin-bottom: 10px;
+			font-size: 18px;
+			width: 120px;
+			height: 50px;
+		}
+		
+		#myTabin .active a {
+			border: none !important;
+			border-bottom: solid 4px #3d6fce !important;
+			color: #3d6fce !important;
+			font-size: 18px !important;
+		}
+		
+		.nav-tabs li a {
+			margin-left: 40px;
+			margin-right: -1px;
+			color: black;
+			border-radius: 0;
+			width: 120px;
+			font: 16px;
+			text-align: center;
+		}
+		
+		#sxqjd {
+			position: relative;
+			background-image: url(img/bg.png);
+			width: 100%;
+			background-size:100% 100%;
+			z-index:0;
+			}
+		
+		#sxqjd h1 {
+			font-size: 36px;
+			color: white;
+			margin: 0 auto;
+			line-height: 100px;
+			width: 1200px;
+			
+		}
+		
+		.container {
+			background-color: white;
+			width: 1200px;
+		}
+		
+		.fade {
+			min-height: 240px !important;
+		}
+	</style>
+
+</html>
